@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<body>
+<body class="background-color: red;">
     <aside id="sidenav-open">
         <nav>
           <h4>My</h4>
